@@ -1,0 +1,121 @@
+.color {
+    color: aliceblue;
+    background: rgb(35,35,35);
+
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.centeredForm{
+    font-size: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.image{
+    width: 10%;
+    height: 10%;
+}
+
+.victoire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: greenyellow;
+}
+
+.position{
+    display: block;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 1%;
+
+}
+
+.info {
+    border-right: none;
+    border-left: none;
+    outline: 0;
+    background: transparent;
+    color: aliceblue;
+    width: 90%;
+    border-top: 2px grey;
+  }
+
+.petiteTaille{
+    font-size: 75%;
+}
+
+.tailleImage{
+    width: 2.5%;
+    height: 2.5%;
+    float: right;
+}
+
+.alignement{
+    display: inline-block;
+    display: inherit;
+    vertical-align:right;
+}
+
+.progress { 
+    margin-left: auto; 
+    margin-right:auto; 
+}
+
+.textClignote  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    animation-duration: .8s;
+    animation-name: clignoter;
+    animation-iteration-count: infinite;
+    transition: none;
+}
+
+    @keyframes clignoter {
+    0%   { color:aliceblue;; }
+    40%   {color:#F1A200; }
+    100% { opacity:aliceblue;; }
+}
+
+bouton:active {
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0%);
+}
+
+.tailleImageProfil{
+    display: block;
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 75%;
+    height: 75%;
+    border-radius: 3%;
+}
+
+.border{
+    background: linear-gradient(0deg, rgba(35,35,35,1) 0%, rgba(60,60,60,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
